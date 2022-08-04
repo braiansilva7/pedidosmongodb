@@ -1,0 +1,28 @@
+    <br>
+    <br>
+    
+    <table class="idTabela">
+        <thead>
+            <tr>
+                <th class="idTh">DATA DO PEDIDO</th>
+                <th class="idTh">SOLICITAÇÃO</th>
+                <th class="idTh">CLIENTE</th>
+                <th class="idTh">CONTATO</th>
+            </tr>
+        </thead>
+        <tbody>
+        {{#pedidos}}
+            <tr>
+                <td class="idTd">{{dataPedido}}</td>
+                <td class="idTd">{{solicitacao}}</td>
+                <td class="idTd">{{cliente}}</td>
+                <td class="idTd">{{contato}}</td>
+            </tr>
+        {{/pedidos}} 
+        </tbody>
+    </table>
+         
+     
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
