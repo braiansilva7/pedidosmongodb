@@ -208,6 +208,7 @@ svg {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  text-align: center;
 }
 
 caption {
@@ -220,14 +221,15 @@ caption {
 .idTd{
   padding: 10px 90px;
   border: 1px solid #000;
+  text-align: center;
 }
 .idTh{
-  text-align: inherit;
+  text-align: center;
   padding: 10px 90px;
   border: 1px solid #000;
 }
 th {
-  text-align: inherit;
+  text-align: center;
   padding: 10px 90px;
   border: 1px solid #000;
 }
