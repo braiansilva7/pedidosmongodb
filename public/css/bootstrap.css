@@ -209,6 +209,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   text-align: center;
+
 }
 
 caption {
@@ -222,6 +223,15 @@ caption {
   padding: 10px 90px;
   border: 1px solid #000;
   text-align: center;
+
+}
+.excluirCampo{
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+.excluirCampo:hover{
+  text-decoration: none;
 }
 .idTh{
   text-align: center;
